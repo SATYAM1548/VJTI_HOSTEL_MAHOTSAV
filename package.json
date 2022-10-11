@@ -1,0 +1,28 @@
+{
+  "name": "vjti_hostel_mahotsav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SATYAM1548/VJTI_HOSTEL_MAHOTSAV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SATYAM1548/VJTI_HOSTEL_MAHOTSAV/issues"
+  },
+  "homepage": "https://github.com/SATYAM1548/VJTI_HOSTEL_MAHOTSAV#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.2",
+    "express-error": "^0.0.7",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.6.5"
+  }
+}

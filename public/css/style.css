@@ -1,0 +1,578 @@
+/* Font Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&display=swap');
+
+/* Utility CSS */
+.main-head{
+    font-family: 'Sree Krushnadevaraya', serif;
+    color: lightsalmon;
+    margin-top: 42px;
+    /* font-size: 1.125rem; */
+    line-height: 1.75rem;
+}
+/* .team-head{
+
+} */
+.h-primary{
+    font-size: 30px;
+    /* font-weight: bolder; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Sree Krushnadevaraya', serif; */
+    color: lightsalmon;
+    margin-top: 84px;
+    /* text-decoration: underline; */
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+/* Main CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: black;
+}
+
+.logopic{
+    height: 7vh;
+    width: 7vw;
+}
+
+.navbar{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* background-color: #050a30; */
+    margin: 3px;
+}
+/* 
+.navigationitems{
+    
+} */
+/* .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+} */
+.navitem{
+    text-decoration: none;
+    margin: 1.7rem;
+    color: white;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Merriweather', serif;
+    font-size: 2.5vh;
+    padding: 0vh 2vw;
+}
+
+.navigationitems a:hover{
+    cursor: pointer;
+    color: lightsalmon;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: rgb(37, 36, 36);
+}
+/* .gs-conts{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center; */
+
+    /* margin: 3rem; */
+
+    /* padding: 2rem;
+} */
+
+/* .jgs-conts{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center; */
+
+    /* margin: 3rem; */
+
+    /* padding: 2rem;
+} */
+
+/* .treas-cont{
+    margin: auto; */
+
+    /* margin-top: 5rem; */
+    /* margin-bottom: 5rem; */
+
+    /* border: 0.3rem solid white;
+    border-radius: 0.5rem;
+} */
+
+/* .gs, .jgs, .treas-cont{
+    height: 25vh;
+    width: 10vw;
+    background-color: #54a1e5;
+} */
+
+/* .gs{
+    margin: 3rem;
+    border: 0.3rem solid white;
+    border-radius: 0.5rem;
+} */
+
+/* .gs img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 13px;
+
+} */
+
+/* .jgs{
+    margin: 3rem;
+    border: 0.3rem solid white;
+    border-radius: 0.5rem;
+} */
+
+/* #team{
+    margin: 2rem;
+    height: 100vh;
+} */
+
+/* #team{
+
+} */
+.GS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 3%;
+}
+.GS-1_cont{
+    display: flex;
+    flex-direction: column;
+}
+.gs-names{
+    text-align: center;
+}
+.gs-names h4{
+    color: lightsalmon;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.gs-names h5{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gs-img{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.gs-img:hover{
+    border: 1.5px solid lightsalmon;
+}
+.gs-img img{
+    height: 155px;
+    width: 155px;
+    margin: 12px;
+    border-radius: 2px;
+}
+#team h1{
+    text-align: center;
+}
+
+.JGS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 3%;
+}
+.JGS-1_cont{
+    display: flex;
+    flex-direction: column;
+}
+.jgs-names{
+    text-align: center;
+}
+.jgs-names h4{
+    color: lightsalmon;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.jgs-names h5{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jgs-img{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+}
+.jgs-img:hover{
+    border: 1.5px solid lightsalmon;
+}
+.jgs-img img{
+    height: 155px;
+    width: 155px;
+    margin: 12px;
+}
+/* #team h1{
+    text-align: center;
+} */
+
+.treasurer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 3%;
+}
+.treasurer_cont{
+    display: flex;
+    flex-direction: column;
+}
+.treasurer-name{
+    text-align: center;
+}
+.treasurer-name h4{
+    color: lightsalmon;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.treasurer-name h5{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.treasurer-img{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.treasurer-img:hover{
+    border: 1.5px solid lightsalmon;
+}
+.treasurer-img img{
+    height: 155px;
+    width: 155px;
+    margin: 12px;
+    
+}
+p{
+    color: white;
+}
+form label{
+    color: white;
+}
+
+#form{
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+.contactus{
+    background-color: #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 20px;
+    width: 450px;
+    box-shadow: 0 0 1.3em rgb(54 54 54);
+    transition: transform 0.5s;
+}
+/* .contactus:hover{
+    border: 1px solid red;
+} */
+.contactus input{
+    background-color: #141414;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    /* outline: auto; */
+    padding: 5px 20px 5px;
+    width: 100%;
+    margin: 12px 0px;
+}
+input:hover{
+    border: 1px solid red;
+}
+label{
+    margin: 2px;
+}
+#myMessage{
+    background-color: #141414;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    /* outline: auto; */
+    padding: 5px 20px 5px;
+    width: 100%;
+    margin: 12px 0px;
+}
+#myMessage:hover{
+    border: 1px solid red;
+}
+.submit{
+    background-color: lightsalmon;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin: 16px;
+    outline: 0;
+    text-align: center;
+    width: 50%;
+}
+.submit:hover{
+    cursor: pointer;
+    color: black;
+    background-color:#f14624;
+    border: 1px solid white;
+}
+.sub-res_btn{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: block;
+}
+
+/* Responsive */
+
+/* @media screen and (max-width=798px) {
+    .navbar{
+        
+    }
+} */
+
+/* Events */
+#events h1{
+    color: white;
+    text-align: center;
+    margin-top: 84px;
+}
+.allevents{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+.eventbox{
+    background-color: #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 1.3em rgb(54 54 54);
+    transition: transform 0.5s;
+    margin: 1rem;
+}
+.eventbox:hover{
+    border: 1px solid blueviolet;
+}
+.eventbox h2{
+    color: red;
+    text-align: center;
+}
+.eventbox p{
+    color: white;
+    text-align: center;
+}
+.viewmore{
+    text-align: center;
+}
+.viewbtn button{
+    background-color: blueviolet;
+    border-radius: 6px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 25px;
+    margin: 8px;
+    outline: 0;
+    text-align: center;
+    width: 35%;
+}
+.viewbtn button:hover{
+    border: 1px solid white;
+    background-color: #54a1e5;
+}
+#holicoverimg, #janmashtamicoverimg, #ganpaticoverimg, #navaratricoverimg{
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Footer */
+#footer{
+    background-color: rgb(54 54 54);
+    height: 285px;
+    color: white;
+    /* width: 100%; */
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+/* .hmfoot{
+    
+} */
+
+.footlogopic{
+    width: 32px;
+}
+.company{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.company a,p{
+    margin: 15px 2px;
+}
+.company p{
+    font-family: 'Sree Krushnadevaraya', serif;
+    color: #f14624;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+}
+.boxes img{
+    height:24px;
+    width: 24px;
+}
+.d-box{ 
+    width: 33.33%;
+}
+
+.d-box h4{
+    text-align: center;
+}
+.d-box img{
+    height: 24px;
+    width: 24px;
+    margin: 0px 5px;
+}
+.d-box a img{
+    height: 24px;
+    width: 24px;
+    margin: 0px 4px
+}
+.d-box a img:hover{
+    color: red;
+}
+
+.d-content{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 10px;
+    justify-content: center;
+}
+.d-content a{
+    text-decoration: none;
+    color: wheat;
+    margin: 0px 3px;
+}
+.d-content a:hover{
+    color: #f14624;
+    cursor: pointer;
+}
+.footnavpages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 15px;
+}
+.footnavpages a{
+    text-decoration: none;
+    color: #f4f6fc;
+    font-family: 'Merriweather', serif;
+    margin: 0px 5px;    
+}
+.footnavpages a:hover{
+    cursor: pointer;
+    color: #f14624;
+}
+.copyright{
+    text-align: center;
+    color: black;
+    margin: 30px;
+}
+/* #about{
+    height: 100vh;
+}
+#section{
+    height: 100vh;
+} */
+/* MEDIA QUERIES   */
+
+/* SMARTPHONE */
+@media screen and (max-width: 767px){
+    
+}
+/* TABLET */
+@media screen and (min-width:767px) and (max-width:1023px) {
+    
+}
+/* DESKTOP */
+@media screen and (min-width:1024px) {
+    
+}
